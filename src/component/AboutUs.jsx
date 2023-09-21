@@ -62,9 +62,9 @@ const AboutUs = () => {
           <motion.div
             variants={ leftCardAnimate }
             className="flex flex-col gap-1 lg:w-1/3 sm:w-3/5 mx-auto items-center  px-5 py-8 rounded-lg  bg-white/95 text-primary-100 ">
-            <RiChatSmile3Line className='text-primary-100' size={ 50 } />
+            <RiChatSmile3Line className='text-3xl md:text-5xl text-primary-100'  />
             <div className="flex flex-col gap-3">
-              <p className="text-center text-primary-100/90 font-nunito text-base md:text-lg font-bold">CLEAN & SIMPLE</p>
+              <p className="text-center text-primary-100/90 font-nunito text-sm md:text-lg font-bold">CLEAN & SIMPLE</p>
               <p className="text-center text-sm  text-primary-100/80 font-poppins">
                 Our easy-to-use school management system makes it simple to keep track of your students,
                 teachers, and classes. With our clean interface, you'll be able to find the information
@@ -76,9 +76,9 @@ const AboutUs = () => {
           <motion.div
             variants={ middleCardAnimate }
             className="flex flex-col gap-1 lg:w-1/3 sm:w-3/5 mx-auto items-center px-5 py-8 rounded-lg bg-white/95 text-primary-100 ">
-              <BiCustomize className='text-primary-100' size={ 50 } />
+              <BiCustomize className='text-3xl md:text-5xl  text-primary-100' />
             <div className="flex flex-col gap-3">
-              <p className="text-center text-primary-100/90 font-nunito text-base md:text-lg font-bold">FEATUREFUL & FLEXIBLE</p>
+              <p className="text-center text-primary-100/90 font-nunito text-sm md:text-lg font-bold">FEATUREFUL & FLEXIBLE</p>
               <p className="text-center text-sm  text-primary-100/80 font-poppins">
                 Our school management system is full of features that can be customized
                 to meet the needs of your school.
@@ -91,9 +91,9 @@ const AboutUs = () => {
           <motion.div
             variants={ rightCardAnimate }
             className="flex flex-col gap-1 lg:w-1/3 sm:w-3/5 mx-auto items-center px-5 py-8 rounded-lg bg-white/95 text-primary-100 ">
-            <BsShieldLock size={ 50 } />
+            <BsShieldLock className='text-3xl md:text-5xl text-primary-100'/>
             <div className="flex flex-col gap-3">
-              <p className="text-center text-primary-100/90 font-nunito text-base md:text-lg font-bold">FAST & SECURE</p>
+              <p className="text-center text-primary-100/90 font-nunito text-sm md:text-lg font-bold">FAST & SECURE</p>
               <p className="text-center text-sm  text-primary-100/80 font-poppins">
                 Process your data with lightning speed while we worry about its security!
                 Our state-of-the-art technology can process your data in minutes,

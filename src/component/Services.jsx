@@ -38,7 +38,7 @@ const Services = () => {
 
     <div id='services' className='my-48 '>
       <div className="w-10/12 mx-auto mb-10">
-        <h1 className="font-nunito text-3xl font-bold text-primary-100">Services We Provide</h1>
+        <h1 className="font-nunito text2xl md:text-3xl font-bold text-primary-100">Services We Provide</h1>
       </div>
       <div className="flex flex-col gap-16">
         <motion.div
@@ -48,7 +48,7 @@ const Services = () => {
           viewport={ {
             once: true, amount: .2
           } }
-          className="bg-white shadow-3xl rounded-2xl lg:justify-between gap-12 flex flex-col items-center    sm:w-3/4  lg:w-10/12 w-10/12 mx-auto px-4 py-4 lg:flex-row-reverse  md:px-20">
+          className="bg-white shadow-3xl rounded-2xl lg:justify-between gap-6 md:gap-12 flex flex-col items-center    sm:w-3/4  lg:w-10/12 w-10/12 mx-auto px-4 py-4 lg:flex-row-reverse  md:px-20">
           <motion.img
             variants={ rightCardAnimate }
             className="md:w-1/2"
@@ -77,7 +77,7 @@ const Services = () => {
           viewport={ {
             once: true, amount: .2
           } }
-          className="bg-white shadow-3xl rounded-2xl lg:justify-between gap-12 flex flex-col items-center   w-10/12 sm:w-3/4  lg:w-10/12 mx-auto px-4 py-4 lg:flex-row md:px-20">
+          className="bg-white shadow-3xl rounded-2xl lg:justify-between gap-6 md:gap-12 flex flex-col items-center   w-10/12 sm:w-3/4  lg:w-10/12 mx-auto px-4 py-4 lg:flex-row md:px-20">
           <motion.img
             variants={ leftCardAnimate }
             className="md:w-1/2"
@@ -106,7 +106,7 @@ const Services = () => {
           viewport={ {
             once: true, amount: .2
           } }
-          className="bg-white shadow-3xl rounded-2xl lg:justify-between gap-12  flex flex-col items-center  w-10/12 sm:w-3/4  lg:w-10/12 mx-auto px-4 py-4 lg:flex-row-reverse  md:px-20">
+          className="bg-white shadow-3xl rounded-2xl lg:justify-between gap-6 md:gap-12  flex flex-col items-center  w-10/12 sm:w-3/4  lg:w-10/12 mx-auto px-4 py-4 lg:flex-row-reverse  md:px-20">
           <motion.img
             variants={ rightCardAnimate }
             className="md:w-1/2"
