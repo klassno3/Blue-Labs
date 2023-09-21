@@ -55,7 +55,7 @@ const Home = () => {
             Our cutting-edge system is mobile-friendly and accessible from any device, allowing
             you to effortlessly share essential information with everyone at the touch of a button.</p>
           </div>
-             <Link to="contact" offset={-150}  smooth={ true } className="bg-primary-200 hover:animate-wiggle cursor-pointer py-3 px-6 md:py-4 md:px-12  text-primary-400 md:text-lg  font-poppins rounded-br-2xl rounded-tl-2xl">Contact Us</Link>
+             <Link to="contact" offset={-150}  smooth={ true } className="bg-primary-200 hover:animate-wiggle cursor-pointer py-3 px-8 md:py-4 md:px-12  text-primary-400 md:text-lg  font-poppins rounded-br-2xl rounded-tl-2xl">Contact Us</Link>
         </motion.div>
 
         <motion.div
