@@ -48,7 +48,7 @@ const Services = () => {
           viewport={ {
             once: true, amount: .2
           } }
-          className="bg-white shadow-3xl rounded-2xl lg:justify-between gap-12 flex flex-col items-center    sm:w-3/4  lg:w-10/12 w-10/12 mx-auto px-8 py-8 lg:flex-row-reverse  md:px-20">
+          className="bg-white shadow-3xl rounded-2xl lg:justify-between gap-12 flex flex-col items-center    sm:w-3/4  lg:w-10/12 w-10/12 mx-auto px-4 py-4 lg:flex-row-reverse  md:px-20">
           <motion.img
             variants={ rightCardAnimate }
             className="md:w-1/2"
@@ -77,7 +77,7 @@ const Services = () => {
           viewport={ {
             once: true, amount: .2
           } }
-          className="bg-white shadow-3xl rounded-2xl lg:justify-between gap-12 flex flex-col items-center   w-10/12 sm:w-3/4  lg:w-10/12 mx-auto px-8 py-8 lg:flex-row md:px-20">
+          className="bg-white shadow-3xl rounded-2xl lg:justify-between gap-12 flex flex-col items-center   w-10/12 sm:w-3/4  lg:w-10/12 mx-auto px-4 py-4 lg:flex-row md:px-20">
           <motion.img
             variants={ leftCardAnimate }
             className="md:w-1/2"
@@ -106,7 +106,7 @@ const Services = () => {
           viewport={ {
             once: true, amount: .2
           } }
-          className="bg-white shadow-3xl rounded-2xl lg:justify-between gap-12  flex flex-col items-center  w-10/12 sm:w-3/4  lg:w-10/12 mx-auto px-8 py-8 lg:flex-row-reverse  md:px-20">
+          className="bg-white shadow-3xl rounded-2xl lg:justify-between gap-12  flex flex-col items-center  w-10/12 sm:w-3/4  lg:w-10/12 mx-auto px-4 py-4 lg:flex-row-reverse  md:px-20">
           <motion.img
             variants={ rightCardAnimate }
             className="md:w-1/2"

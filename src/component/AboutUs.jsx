@@ -53,7 +53,7 @@ const AboutUs = () => {
       initial={ "offScreen" }
       whileInView={ "onScreen" }
       viewport={ {
-        once: true, amount: .5
+        once: true, amount: .2
       } }
       id='about' className=' bg-no-repeat bg-cover w-full skew-y-[3deg] bg-hero-pattern'>
       <div className="-skew-y-[3deg] w-11/12 md:w-10/12 mx-auto flex py-28 ">

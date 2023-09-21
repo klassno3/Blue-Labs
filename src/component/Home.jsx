@@ -41,7 +41,7 @@ const Home = () => {
           once: true, amount:.5
         } }
       id='home' className=''>
-      <div className="flex flex-col lg:flex-row pt-16 mb-48  w-11/12 md:w-10/12 mx-auto  gap-12 lg:justify-between">
+      <div className="flex flex-col lg:flex-row pt-8 md:pt-16 mb-48  w-11/12 md:w-10/12 mx-auto  gap-12 lg:justify-between">
         
         <motion.div
           variants={leftCardAnimate}
@@ -49,13 +49,13 @@ const Home = () => {
           <div className="flex flex-col items-center lg:items-start gap-5">
 
           <h1 className="text-3xl md:text-5xl font-nunito font-semibold text-primary-100">BLU LABS</h1>
-            <p className="text-primary-100  text-center lg:text-left font-poppins  md:text-lg ">
+            <p className="text-primary-100  text-center lg:text-left font-poppins text-sm md:text-lg ">
               Unlock the Power of Seamless School Management Solutions! Effortlessly navigate
               through administrative tasks and reclaim your time for what truly matters - teaching.
             Our cutting-edge system is mobile-friendly and accessible from any device, allowing
             you to effortlessly share essential information with everyone at the touch of a button.</p>
           </div>
-             <Link to="contact" offset={-150}  smooth={ true } className="bg-primary-200 hover:animate-wiggle cursor-pointer py-4 px-12  text-primary-400 text-lg  font-poppins rounded-br-2xl rounded-tl-2xl">Contact Us</Link>
+             <Link to="contact" offset={-150}  smooth={ true } className="bg-primary-200 hover:animate-wiggle cursor-pointer py-2 px-6 md:py-4 md:px-12  text-primary-400 md:text-lg  font-poppins rounded-br-2xl rounded-tl-2xl">Contact Us</Link>
         </motion.div>
 
         <motion.div
